@@ -5,15 +5,18 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "pm2 start index.js --exp-backoff-restart-delay=100",
+    "restart": "pm2 restart index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.0",
     "cors": "^2.8.5",
+    "exceljs": "^4.3.0",
     "express": "^4.18.0",
     "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
     "nodemon": "^2.0.15",
     "puppeteer": "^13.6.0"
   }

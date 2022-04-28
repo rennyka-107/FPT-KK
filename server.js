@@ -1,4 +1,5 @@
 const pup = require("puppeteer");
+const fs = require("fs");
 // const originData = [
 //   {
 //     client_id: "vKyPNd1iWHodQVknxcvZoWz74295wnk8",
@@ -53,11 +54,20 @@ module.exports = async function crawData(dataFptOrigin) {
             }
           );
           const resDataJson = await resData.json();
-          if (resDataJson) {
-            return {
-              account: { phone: dF.phone, password: dF.password },
-              ...resDataJson,
-            };
+          if (resDataJson && resDataJson.packages.length > 0) {
+            let validReturn = false;
+            const formatPkg = [];
+            resDataJson.packages.forEach((pkg) => {
+              if (pkg.dateleft !== null) {
+                validReturn = true;
+                formatPkg.push(pkg);
+              }
+            });
+            if (validReturn && formatPkg.length > 0)
+              return {
+                account: { phone: dF.phone, password: dF.password },
+                packages: formatPkg,
+              };
           }
         }
         if (jsonResLogin && jsonResLogin.error_code === 34) {
@@ -90,11 +100,20 @@ module.exports = async function crawData(dataFptOrigin) {
               }
             );
             const resData2Json = await resData2.json();
-            if (resData2Json) {
-              return {
-                account: { phone: dF.phone, password: dF.password },
-                ...resData2Json,
-              };
+            if (resData2Json && resData2Json.packages.length > 0) {
+              let validReturn = false;
+              const formatPkg = [];
+              resData2Json.packages.forEach((pkg) => {
+                if (pkg.dateleft !== null) {
+                  validReturn = true;
+                  formatPkg.push(pkg);
+                }
+              });
+              if (validReturn && formatPkg.length > 0)
+                return {
+                  account: { phone: dF.phone, password: dF.password },
+                  packages: formatPkg,
+                };
             }
           }
         }
@@ -111,5 +130,44 @@ module.exports = async function crawData(dataFptOrigin) {
       dataFpt.push(r);
     }
   });
+  await addDataToJsonFile(dataFpt);
   return dataFpt;
 };
+
+function addDataToJsonFile(data) {
+  let oldData;
+  fs.readFile("./data.json", "utf8", (err, jsonString) => {
+    if (err) {
+      return;
+    }
+    try {
+      if (jsonString) {
+        oldData = JSON.parse(jsonString);
+      }
+      if (oldData) {
+        let uniqueObjArray = [
+          ...new Map(
+            [...oldData, ...data].map((item) => [
+              item["account"]["phone"],
+              item,
+            ])
+          ).values(),
+        ];
+        fs.writeFile("./data.json", JSON.stringify(uniqueObjArray), (err) => {
+          if (err) console.log("Error writing file:", err);
+        });
+      } else {
+        let uniqueObjArray = [
+          ...new Map(
+            [...data].map((item) => [item["account"]["phone"], item])
+          ).values(),
+        ];
+        fs.writeFile("./data.json", JSON.stringify(uniqueObjArray), (err) => {
+          if (err) console.log("Error writing file:", err);
+        });
+      }
+    } catch (err) {
+      console.log("Error parsing JSON string:", err);
+    }
+  });
+}

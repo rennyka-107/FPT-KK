@@ -1,0 +1,560 @@
+[
+    {
+        "account": {
+            "phone": "0968204119",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "16/09/2022",
+                "plan_id": 912,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "coban",
+                "value": 365,
+                "is_sub": 0,
+                "from_date": "16/09/2021",
+                "expired_date": "2022-09-16 23:59:59",
+                "msg": "Còn 144 ngày",
+                "user_id": 27114638,
+                "plan_name": "Gói Kênh Cơ Bản",
+                "dateleft": 144
+            },
+            {
+                "next_date": "16/09/2022",
+                "plan_id": 930,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "giadinh",
+                "value": 365,
+                "is_sub": 0,
+                "from_date": "16/09/2021",
+                "expired_date": "2022-09-16 23:59:59",
+                "msg": "Còn 144 ngày",
+                "user_id": 27114638,
+                "plan_name": "Gói Kênh Gia Đình",
+                "dateleft": 144
+            }
+        ]
+    },
+    {
+        "account": {
+            "phone": "0968204206",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "06/02/2023",
+                "plan_id": 912,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "coban",
+                "value": 365,
+                "is_sub": 0,
+                "from_date": "06/02/2022",
+                "expired_date": "2023-02-06 23:59:59",
+                "msg": "Còn 285 ngày",
+                "user_id": 27061700,
+                "plan_name": "Gói Kênh Cơ Bản",
+                "dateleft": 285
+            },
+            {
+                "next_date": "06/02/2023",
+                "plan_id": 930,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "giadinh",
+                "value": 365,
+                "is_sub": 0,
+                "from_date": "06/02/2022",
+                "expired_date": "2023-02-06 23:59:59",
+                "msg": "Còn 285 ngày",
+                "user_id": 27061700,
+                "plan_name": "Gói Kênh Gia Đình",
+                "dateleft": 285
+            }
+        ]
+    },
+    {
+        "account": {
+            "phone": "0968204299",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "29/05/2019",
+                "plan_id": 907,
+                "subs": -1,
+                "package": "",
+                "vip": false,
+                "plan_type": "coban",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "21/03/2019",
+                "expired_date": "2019-05-29 12:10:28",
+                "msg": "Hết hạn",
+                "user_id": 4594609,
+                "plan_name": "Gói Kênh Cơ Bản",
+                "dateleft": null
+            }
+        ]
+    },
+    {
+        "account": {
+            "phone": "0968204371",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "04/05/2022",
+                "plan_id": 3222,
+                "subs": -1,
+                "package": "svod",
+                "vip": true,
+                "plan_type": "max",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "27/11/2021",
+                "expired_date": "2022-05-04 23:59:59",
+                "msg": "Còn 7 ngày",
+                "user_id": 7676803,
+                "plan_name": "Gói Max",
+                "dateleft": 7
+            }
+        ]
+    },
+    {
+        "account": {
+            "phone": "0968204632",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "18/01/2020",
+                "plan_id": 907,
+                "subs": -1,
+                "package": "",
+                "vip": false,
+                "plan_type": "coban",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "21/03/2019",
+                "expired_date": "2020-01-18 20:31:14",
+                "msg": "Hết hạn",
+                "user_id": 10623557,
+                "plan_name": "Gói Kênh Cơ Bản",
+                "dateleft": null
+            }
+        ]
+    },
+    {
+        "account": {
+            "phone": "0968204654",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 2381,
+                "subs": -1,
+                "package": "svod",
+                "vip": false,
+                "plan_type": "vip",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói VIP",
+                "dateleft": null
+            },
+            {
+                "next_date": "29/06/2022",
+                "plan_id": 912,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "coban",
+                "value": 365,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2022-06-29 23:59:59",
+                "msg": "Còn 63 ngày",
+                "user_id": 24222079,
+                "plan_name": "Gói Kênh Cơ Bản",
+                "dateleft": 63
+            },
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 1073,
+                "subs": -1,
+                "package": "svod",
+                "vip": false,
+                "plan_type": "dis-ads",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói Tắt Quảng Cáo",
+                "dateleft": null
+            },
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 2286,
+                "subs": -1,
+                "package": "",
+                "vip": false,
+                "plan_type": "edumall",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói Edumall",
+                "dateleft": null
+            },
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 2385,
+                "subs": -1,
+                "package": "",
+                "vip": false,
+                "plan_type": "game",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói Gameloft",
+                "dateleft": null
+            },
+            {
+                "next_date": "29/06/2022",
+                "plan_id": 930,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "giadinh",
+                "value": 365,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2022-06-29 23:59:59",
+                "msg": "Còn 63 ngày",
+                "user_id": 24222079,
+                "plan_name": "Gói Kênh Gia Đình",
+                "dateleft": 63
+            },
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 2256,
+                "subs": -1,
+                "package": "",
+                "vip": false,
+                "plan_type": "hbo-go-plus",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói HBO GO",
+                "dateleft": null
+            },
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 2663,
+                "subs": -1,
+                "package": "",
+                "vip": false,
+                "plan_type": "nhaccuatui",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói Nhạc Của Tui",
+                "dateleft": null
+            },
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 2495,
+                "subs": -1,
+                "package": "",
+                "vip": false,
+                "plan_type": "okara",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói Okara",
+                "dateleft": null
+            },
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 2548,
+                "subs": -1,
+                "package": "",
+                "vip": false,
+                "plan_type": "phimbovip",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói Phim bộ VIP",
+                "dateleft": null
+            },
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 2273,
+                "subs": -1,
+                "package": "",
+                "vip": false,
+                "plan_type": "quocte",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói Kênh Quốc Tế",
+                "dateleft": null
+            },
+            {
+                "next_date": "29/06/2021",
+                "plan_id": 2516,
+                "subs": -1,
+                "package": "svod",
+                "vip": false,
+                "plan_type": "vvip",
+                "value": 90,
+                "is_sub": 0,
+                "from_date": "29/03/2021",
+                "expired_date": "2021-06-29 23:59:59",
+                "msg": "Hết hạn",
+                "user_id": 24222079,
+                "plan_name": "Gói Đặc Sắc",
+                "dateleft": null
+            }
+        ]
+    },
+    {
+        "account": {
+            "phone": "0968204680",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "04/06/2022",
+                "plan_id": 907,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "coban",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "21/03/2019",
+                "expired_date": "2022-06-04 23:59:59",
+                "msg": "Còn 38 ngày",
+                "user_id": 9138796,
+                "plan_name": "Gói Kênh Cơ Bản",
+                "dateleft": 38
+            },
+            {
+                "next_date": "04/06/2022",
+                "plan_id": 925,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "giadinh",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "31/01/2021",
+                "expired_date": "2022-06-04 23:59:59",
+                "msg": "Còn 38 ngày",
+                "user_id": 9138796,
+                "plan_name": "Gói Kênh Gia Đình",
+                "dateleft": 38
+            },
+            {
+                "next_date": "04/06/2022",
+                "plan_id": 2546,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "phimbovip",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "31/01/2021",
+                "expired_date": "2022-06-04 23:59:59",
+                "msg": "Còn 38 ngày",
+                "user_id": 9138796,
+                "plan_name": "Gói Phim bộ VIP",
+                "dateleft": 38
+            },
+            {
+                "next_date": "04/06/2022",
+                "plan_id": 2271,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "quocte",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "31/01/2021",
+                "expired_date": "2022-06-04 23:59:59",
+                "msg": "Còn 38 ngày",
+                "user_id": 9138796,
+                "plan_name": "Gói Kênh Quốc Tế",
+                "dateleft": 38
+            },
+            {
+                "next_date": "04/06/2022",
+                "plan_id": 2908,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "uefa",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "07/08/2021",
+                "expired_date": "2022-06-04 23:59:59",
+                "msg": "Còn 38 ngày",
+                "user_id": 9138796,
+                "plan_name": "Gói Sport",
+                "dateleft": 38
+            },
+            {
+                "next_date": "04/06/2022",
+                "plan_id": 3276,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "youth-league",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "13/09/2021",
+                "expired_date": "2022-06-04 23:59:59",
+                "msg": "Còn 38 ngày",
+                "user_id": 9138796,
+                "plan_name": "Gói Youth League",
+                "dateleft": 38
+            }
+        ]
+    },
+    {
+        "account": {
+            "phone": "0968204781",
+            "password": "123456"
+        },
+        "packages": []
+    },
+    {
+        "account": {
+            "phone": "0968204787",
+            "password": "123456"
+        },
+        "packages": []
+    },
+    {
+        "account": {
+            "phone": "0968204798",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "11/08/2022",
+                "plan_id": 912,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "coban",
+                "value": 365,
+                "is_sub": 0,
+                "from_date": "11/08/2021",
+                "expired_date": "2022-08-11 23:59:59",
+                "msg": "Còn 106 ngày",
+                "user_id": 26583080,
+                "plan_name": "Gói Kênh Cơ Bản",
+                "dateleft": 106
+            },
+            {
+                "next_date": "11/08/2022",
+                "plan_id": 930,
+                "subs": -1,
+                "package": "",
+                "vip": true,
+                "plan_type": "giadinh",
+                "value": 365,
+                "is_sub": 0,
+                "from_date": "11/08/2021",
+                "expired_date": "2022-08-11 23:59:59",
+                "msg": "Còn 106 ngày",
+                "user_id": 26583080,
+                "plan_name": "Gói Kênh Gia Đình",
+                "dateleft": 106
+            }
+        ]
+    },
+    {
+        "account": {
+            "phone": "0968204911",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "02/05/2022",
+                "plan_id": 3222,
+                "subs": -1,
+                "package": "svod",
+                "vip": true,
+                "plan_type": "max",
+                "value": 30,
+                "is_sub": 0,
+                "from_date": "28/03/2022",
+                "expired_date": "2022-05-02 23:59:59",
+                "msg": "Còn 5 ngày",
+                "user_id": 21205793,
+                "plan_name": "Gói Max",
+                "dateleft": 5
+            }
+        ]
+    },
+    {
+        "account": {
+            "phone": "0968204958",
+            "password": "123456"
+        },
+        "packages": [
+            {
+                "next_date": "01/05/2022",
+                "plan_id": 3222,
+                "subs": -1,
+                "package": "svod",
+                "vip": true,
+                "plan_type": "max",
+                "value": 30,
+                "is_sub": 1,
+                "from_date": "01/04/2022",
+                "expired_date": "2022-05-01 00:00:01",
+                "msg": "",
+                "user_id": 24283434,
+                "plan_name": "Gói Max",
+                "dateleft": 3
+            }
+        ]
+    }
+]
