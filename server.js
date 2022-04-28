@@ -17,7 +17,7 @@ module.exports = async function crawData(dataFptOrigin) {
   let browser = await pup.launch({ headless: false });
   let page = await browser.newPage();
   page.setViewport({ width: 1280, height: 720 });
-  await page.goto("https://fptplay.vn/dang-nhap", {
+  await page.goto("https://fptplay.vn", {
     waitUntil: "networkidle0",
   });
 
@@ -26,7 +26,7 @@ module.exports = async function crawData(dataFptOrigin) {
     dataFpt.forEach(async (dF) => {
       const promiseFpt = async function () {
         const resLogin = await fetch(
-          "https://api.fptplay.net/api/v6.2_w/user/otp/login",
+          "https://api.fptplay.net/api/v6.2_w/user/otp/login?st=eP8yZTyywTLmsA1CANOuAg&e=1650938137604&device=Edge(version%253A100.0.1185.50)&drm=1",
           {
             method: "POST",
             mode: "cors",
@@ -43,7 +43,7 @@ module.exports = async function crawData(dataFptOrigin) {
           jsonResLogin.data
         ) {
           const resData = await fetch(
-            "https://api.fptplay.net/api/v6.2_w/payment/get_v2_user_vips",
+            "https://api.fptplay.net/api/v6.2_w/payment/get_v2_user_vips?st=GgygkKX6JIuYHxHNGJJlYw&e=1651161722753&device=Chrome(version%253A101.0.4950.0)&drm=1",
             {
               method: "GET",
               mode: "cors",
@@ -72,7 +72,7 @@ module.exports = async function crawData(dataFptOrigin) {
         }
         if (jsonResLogin && jsonResLogin.error_code === 34) {
           const resLogin2 = await fetch(
-            "https://api.fptplay.net/api/v6.2_w/user/otp/clear_web_tokens",
+            "https://api.fptplay.net/api/v6.2_w/user/otp/clear_web_tokens?st=KjDkYmjMQW-Ifse9Se_dfA&e=1651161655322&device=Chrome(version%253A101.0.4950.0)&drm=1",
             {
               method: "POST",
               mode: "cors",
@@ -89,7 +89,7 @@ module.exports = async function crawData(dataFptOrigin) {
             jsonResLogin2.data
           ) {
             const resData2 = await fetch(
-              "https://api.fptplay.net/api/v6.2_w/payment/get_v2_user_vips",
+              "https://api.fptplay.net/api/v6.2_w/payment/get_v2_user_vips?st=GgygkKX6JIuYHxHNGJJlYw&e=1651161722753&device=Chrome(version%253A101.0.4950.0)&drm=1",
               {
                 method: "GET",
                 mode: "cors",
